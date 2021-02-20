@@ -1,5 +1,5 @@
 # Neural-Network-Stock-Prediction-Project
-This is a personal project of mine which I began with the intention of practicing implementing a research paper, using Neural Networks and implementing a ML/ Data Science project.
+This is a personal project of mine which I began with the intention of practicing implementing a research paper, using Neural Networks and implementing a ML/Data Science project.
 My project is based on the following research paper: https://www.researchgate.net/publication/319343084_Algorithmic_Trading_Using_Deep_Neural_Networks_on_High_Frequency_Data.
 The main purpose of my project is using a simple Neural Network architecture in order to predict the average price of the IBM stock for the next trading day. Below are the steps I took in this project.
 
