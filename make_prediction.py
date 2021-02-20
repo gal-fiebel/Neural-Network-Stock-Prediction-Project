@@ -229,10 +229,7 @@ def train_model(X_train, y_train, window_size, num_layers):
     """
     model = build_nn_model(num_layers, 3 * window_size)
     model.compile(loss='mean_squared_error', optimizer=Adadelta(learning_rate=0.005, rho=0.9999, epsilon=1e-10))
-    h = model.fit(X_train, y_train, epochs=2500, verbose=0)
-    plt.figure()
-    plt.plot(np.arange(1500, 2500), h.history['loss'][1500:])
-    plt.show()
+    model.fit(X_train, y_train, epochs=100, verbose=0)
     return model
 
 
