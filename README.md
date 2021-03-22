@@ -17,6 +17,7 @@ The model that I selected was not the most profitable model. This was the most p
 After selecting my model I decided to write a python program for updating daily predictions, this program can be seen in the [make_prediction.py](make_prediction.py) file.
 In this program the user is asked if this is the first ever run of this stock, the last trading day's day, month and year, the stock name and finally an Alpha Vantage API key. If it is the first ever run for the stock then the program performs the first training and saves the needed data in the format of numpy arrays (.npy files) and predicts the next trading day's average price. If it is not the first ever run, then the program reads the last trading day's data from Alpha Vantage, using the API key entered and updates the numpy arrays consisting of the data for training and predicting, and then retrains the model and predicts the next trading day's average price.
 
-### Simulation
-I will perform a simulation for 1 month with the program using the free trial of the Interactive Brokers Trading WorkStation simulated trading, using the trading strategy that was used in the research paper. The simulation will begin on February 22,2021 and will end on March 19,2021.
-I will update this README file with the simulation results when finished.
+### Simulation and Results
+I performed a simulation for 20 trading days (1 month) in which I predicted the next trading day's average price using the python program from the previous step, then decided to buy or sell based on the trading strategy that was used in the research paper and performed the trading by using the free trial of the Interactive Brokers Trading WorkStation platform for simulated trading.
+#### The results are as followed: Buying and Selling the equivalent of a dollar's worth in shares the strategy accunulated approximately 0.075$ in 20 trading days.
+These results are a good baseline, but I think the results will increase if more complex and state of the art NN architectures are used.
