@@ -19,4 +19,4 @@ In this program the user is asked if this is the first ever run of this stock, t
 
 ### Simulation and Results
 I performed a simulation for 20 trading days (1 month) in which I predicted the next trading day's average price using the python program from the previous step, then decided to buy or sell based on the trading strategy that was used in the research paper and performed the trading by using the free trial of the Interactive Brokers Trading WorkStation platform for simulated trading.
-#### The results are as followed: Buying and Selling the equivalent of a dollar's worth in shares the strategy accunulated approximately 0.075$ in 20 trading days.
+#### The results are as followed: Buying and Selling the equivalent of a dollar's worth in shares the strategy accumulated approximately 0.075$ in 20 trading days.
